@@ -1,0 +1,90 @@
+/* BOTON INICIO */
+.btn-inicio {
+  background-image: -webkit-linear-gradient(top, #2A5BB5 0%, #2A5BB5 100%);
+  background-image:      -o-linear-gradient(top, #2A5BB5 0%, #2A5BB5 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2A5BB5), to(#2A5BB5));
+  background-image:         linear-gradient(to bottom, #2A5BB5 0%, #2A5BB5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-color: #2A5BB5;
+}
+.btn-inicio:hover,
+.btn-inicio:focus {
+  background-color: #2A5BB5;
+
+}
+.btn-inicio:active,
+.btn-inicio.active {
+  background-color: #2A5BB5;
+  border-color: #2A5BB5;
+}
+.btn-inicio.disabled,
+.btn-inicio[disabled],
+fieldset[disabled] .btn-inicio,
+.btn-inicio.disabled:hover,
+.btn-inicio[disabled]:hover,
+fieldset[disabled] .btn-inicio:hover,
+.btn-inicio.disabled:focus,
+.btn-inicio[disabled]:focus,
+fieldset[disabled] .btn-inicio:focus,
+.btn-inicio.disabled.focus,
+.btn-inicio[disabled].focus,
+fieldset[disabled] .btn-inicio.focus,
+.btn-inicio.disabled:active,
+.btn-inicio[disabled]:active,
+fieldset[disabled] .btn-inicio:active,
+.btn-inicio.disabled.active,
+.btn-inicio[disabled].active,
+fieldset[disabled] .btn-inicio.active {
+  background-color: #2A5BB5;
+  background-image: none;
+}
+.btn-inicio .badge {
+  color: #2A5BB5;
+  background-color: #fff;
+}
+
+
+/* BOTON REGISTRAR */
+.btn-registrar {
+  background-image: -webkit-linear-gradient(top, #3CB371 0%, #3CB371 100%);
+  background-image:      -o-linear-gradient(top, #3CB371 0%, #3CB371 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3CB371), to(#3CB371));
+  background-image:         linear-gradient(to bottom, #3CB371 0%, #3CB371 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff337ab7', endColorstr='#ff265a88', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-color: #3CB371;
+}
+.btn-registrar:hover,
+.btn-registrar:focus {
+  background-color: #3CB371;
+
+}
+.btn-registrar:active,
+.btn-registrar.active {
+  background-color: #3CB371;
+  border-color: #3CB371;
+}
+.btn-registrar.disabled,
+.btn-registrar[disabled],
+fieldset[disabled] .btn-registrar,
+.btn-registrar.disabled:hover,
+.btn-registrar[disabled]:hover,
+fieldset[disabled] .btn-registrar:hover,
+.btn-registrar.disabled:focus,
+.btn-registrar[disabled]:focus,
+fieldset[disabled] .btn-registrar:focus,
+.btn-registrar.disabled.focus,
+.btn-registrar[disabled].focus,
+fieldset[disabled] .btn-registrar.focus,
+.btn-registrar.disabled:active,
+.btn-registrar[disabled]:active,
+fieldset[disabled] .btn-registrar:active,
+.btn-registrar.disabled.active,
+.btn-registrar[disabled].active,
+fieldset[disabled] .btn-registrar.active {
+  background-color: #3CB371;
+  background-image: none;
+}

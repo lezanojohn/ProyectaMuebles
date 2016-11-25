@@ -1,0 +1,270 @@
+/*===================================================================*/
+/*===================================================================*/
+/* ESTRUCTURA CENTRAL */
+html {
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	padding-top: 55px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.barra {
+	box-shadow: 0 1px 3px rgba(0,0,0,.4);
+}
+
+.ctn_bienvenido {
+	position:absolute;
+	top:60px;
+}
+
+#bienvenido {
+	text-align: right;
+	margin-right: 20px;
+}
+
+.show-on-hover:hover > ul.dropdown-menu {
+    display: block;    
+}
+
+h2,.h2, h3, .h3, #etiqueta {
+ 	color: #333;
+}
+
+.row span {
+	color: #444;
+}
+
+#volverAtras {
+	margin-left: 20px;
+	margin-bottom: 20px;
+	font-size: 15px;
+}
+
+#volverAtras a {
+	color: #444;
+}
+
+#imgPerfil {
+	width: 30px;
+	height: 30px;
+}
+
+@media screen and (max-width: 480px) {
+	.ctn_bienvenido {
+		position: relative;
+		top: 0;
+		left: -100px;
+	}
+}
+
+/*===================================================================*/
+/*===================================================================*/
+/* VER COMUNIDAD (HOME) */
+#contenedorFuncion {
+    margin-top: 0px;
+}
+
+#imgPerfilGrande {
+	width: 90px;
+	height: 90px;
+}
+
+
+#imgPerfilResumen {
+	width: 70px;
+	height: 70px;
+}
+
+#imgPerfilPropuesta {
+	width: 40px;
+	height: 40px;
+}
+
+#imgPerfilDetallado {
+	width: 50%; 
+	height: 50%;
+}
+
+@media screen and (max-width: 400px) {
+	#imgPerfilGrande {
+		width: 70px;
+		height: 70px;
+	}
+}
+
+/*===================================================================*/
+/*===================================================================*/
+/* BUSCAR MUEBLISTA */
+#canvas {
+	width: auto;
+	height: 350px;
+	margin-bottom: 20px;
+	border: 1px solid #0a443e;
+	border-radius: 15px;
+}
+
+#simbologia {
+	margin-left: 10px;
+}
+
+#simbologia .img_marcador {
+	width: 24px;
+}
+
+aside {
+	background-color: #b2eae4;
+	color: #333;
+	border-radius: 15px;
+	height: 350px;
+}
+
+aside>h2 {
+    color: #333;
+}
+
+aside>p>b {
+	color: #333;
+	font-size: 17px;
+}
+
+.info {
+	border-bottom: 1px solid #000;
+}
+
+
+/*===================================================================*/
+/*===================================================================*/
+/* VER PROPUESTA DETALLADA */
+#propuesta {
+	padding-top: 20px;
+}
+
+
+
+
+/*===================================================================*/
+/*===================================================================*/
+/* VER MIS IDEAS DE PROYECTO */
+#imgPerfilAumentado {
+	width: 40px;
+	height: 40px;
+}
+
+
+
+/*===================================================================*/
+/*===================================================================*/
+/* CLIENTE */
+
+
+.btn-personalizado {
+  background-color: #00a796;
+  color: #fff;
+}
+
+#panelMueblistas {
+	background-color: #b2eae4;
+}
+
+
+#etiqueta {
+	font-size: 16px;
+}
+
+
+#cuadro_proyecto_detalle {
+	background-color:#b2eae4; 
+	height:30%; 
+	border-style: solid; 
+	border-color: black;
+	border-radius: 5px;
+}
+
+#cuadroPropuesta {
+	background-color: #b2eae4;
+	border-radius: 5px;
+	height: 450px;
+}
+
+
+
+
+/*===================================================================*/
+/*===================================================================*/
+/* ADMINISTRADOR */
+
+.administrarUsuarios{
+padding: 20px;
+font-size: 20px;
+text-align: center;
+
+}
+
+
+
+.divAdmin {
+	background-color: #d4def2;
+
+}
+
+.divAdminPad {
+padding: 10px;
+}
+
+.divAdminPad :hover {
+	background-color: #AABBDD;
+
+}
+
+
+
+.btnModificarMueblista {
+margin: 10px;
+
+
+}
+
+.btnEliminarMueblista {
+margin: 10px;
+
+
+}
+
+
+
+
+
+
+/*===================================================================*/
+/*===================================================================*/
+/*  */
+
+.input, input {
+	width: 100%;
+	font-size: 16px;
+	padding: 8px;
+	outline: none;
+ 	background-color: transparent;
+ 	border: none;
+	border-bottom: 1px solid #000;
+}
+
+#listaProyectos>p {
+    font-size: 16px;
+    font-weight: 200;
+    color: #000;
+}
+
+
+a.button {
+	height: 30%;
+	width: 40%;    
+}
+
+
+
+
+
+
